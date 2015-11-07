@@ -1,0 +1,32 @@
+    1  ls
+    2  mkdir hw1
+    3  cd hw1
+    4  git clone https://github.com/Rcrd0/hw-sinatra-saas-hangperson.git
+    5  mkdir part0
+    6  cd part0
+    7  ls ..
+    8  git init
+    9  touch Gemfile
+   10  bundle
+   11  git add -A
+   12  git commit -am "Setup the Gemfile"
+   13  cat Gemfile.lock
+   14  touch app.rb
+   15  touch config.ru
+   16  rackup -p $PORT -o $IP
+   17  rerun "rackup -p $PORT -o $IP"
+   18  wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+   19  heroku login
+   20  heroku create
+   21  git add .
+   22  git commit -m "Pre Heroku"
+   23  git push heroku master
+   24  history > part0.hist
+   25  git add .
+   26  git push origin master
+   27  heroku logout
+   28  git push origin master
+   29  git -v
+   30  git --version
+   31  git help
+   32  history > part0.hist
