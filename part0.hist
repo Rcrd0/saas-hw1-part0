@@ -30,3 +30,12 @@
    30  git --version
    31  git help
    32  history > part0.hist
+   33  git add .
+   34  git commit -m "trying to upload github"
+   35  git push origin master
+   36  git help
+   37  git remote add origin https://github.com/Rcrd0/saas-hw1-part0.git
+   38  git add .
+   39  git commit -m "trying to upload github after adding remote respository"
+   40  git push origin master
+   41  history > part0.hist
